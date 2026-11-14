@@ -18,7 +18,7 @@ Myrmidon runs a team of AI agents on your own server, and holds it to the standa
 
 ## Where the project is heading
 
-The project is growing toward a full colony. The 1.6 line laid the foundation: per-role task queues, baseline metrics and evals, and a skill lifecycle where an agent's finding becomes a company skill only after review. Next up are custom castes and model providers managed right from the interface. Further out, the colony grows its own body — an orchestrated cluster across machines, hibernation for idle agents, a second site for survivability — and the codebase is gradually rewritten from specifications until no borrowed code remains.
+The project is growing toward a full colony. The 1.6 line laid the foundation: per-role task queues, baseline metrics and evals, and a skill lifecycle where an agent's finding becomes a company skill only after review. The 1.6.7–1.6.9 releases built on it: gateway channels and model pools managed from the board, remote execution sites, a separate SSH runner for `omp` agents, and — in 1.6.9 — far fewer wakes that change nothing (a reviewer is no longer woken onto an unfinished or red CI, and a task an agent keeps handing back cools down). Next up are custom castes and speech input. Further out, the colony grows its own body — an orchestrated cluster across machines, hibernation for idle agents, a second site for survivability — and the codebase is gradually rewritten from specifications until no borrowed code remains.
 
 That's the direction, not a promise: the details are in the [roadmap](https://github.com/itkadr-git/myrmidon/blob/main/docs/myrmidon/ROADMAP.md).
 
@@ -44,7 +44,7 @@ Myrmidon ведёт команду ИИ-агентов на вашем серв�
 
 ## Куда идёт проект
 
-Проект идёт к полноценной колонии. Линия 1.6 заложила основу: очереди задач по ролям, метрики и проверки на эталонных задачах, жизненный цикл навыков — находка агента становится навыком компании только после проверки. Дальше — собственные касты и провайдеры моделей прямо в интерфейсе. А ещё дальше колония отращивает себе тело: кластер из нескольких машин под управлением оркестратора, усыпление простаивающих агентов, вторая площадка на случай отказа — а код постепенно переписывается по спецификациям, пока в нём не останется заимствований.
+Проект идёт к полноценной колонии. Линия 1.6 заложила основу: очереди задач по ролям, метрики и проверки на эталонных задачах, жизненный цикл навыков — находка агента становится навыком компании только после проверки. Выпуски 1.6.7–1.6.9 развили её: каналы шлюза и пулы моделей настраиваются с доски, появились удалённые площадки исполнения и отдельный SSH-раннер для агентов `omp`, а в 1.6.9 стало намного меньше пробуждений вхолостую (ревьюер не будится на незавершённый или красный CI, задача, которую агент возвращает в очередь, остывает). Дальше — собственные касты и голосовой ввод. А ещё дальше колония отращивает себе тело: кластер из нескольких машин под управлением оркестратора, усыпление простаивающих агентов, вторая площадка на случай отказа — а код постепенно переписывается по спецификациям, пока в нём не останется заимствований.
 
 Это направление, а не обещание: подробности — в [дорожной карте](https://github.com/itkadr-git/myrmidon/blob/main/docs/myrmidon/ROADMAP.md).
 
@@ -53,7 +53,8 @@ Myrmidon ведёт команду ИИ-агентов на вашем серв�
 ## Myrmidon
 
 - **Repository / Репозиторий:** [itkadr-git/myrmidon](https://github.com/itkadr-git/myrmidon)
-- **Latest release / Последний выпуск:** [myr-v1.6.5](https://github.com/itkadr-git/myrmidon/releases/tag/myr-v1.6.5) · [all releases / все выпуски](https://github.com/itkadr-git/myrmidon/releases)
+- **Latest release / Последний выпуск:** [myr-v1.6.9](https://github.com/itkadr-git/myrmidon/releases/tag/myr-v1.6.9) · [all releases / все выпуски](https://github.com/itkadr-git/myrmidon/releases)
+- **Release notes / Заметки к выпуску:** [EN](https://github.com/itkadr-git/myrmidon/blob/main/docs/myrmidon/releases/1.6.9.md) · [RU](https://github.com/itkadr-git/myrmidon/blob/main/docs/myrmidon/releases/1.6.9.ru.md)
 - **Quick start / Быстрый старт:** [EN](https://github.com/itkadr-git/myrmidon/wiki/Quick-start) · [RU](https://github.com/itkadr-git/myrmidon/wiki/Quick-start.ru)
 - **Deploy / Выкат:** [EN](https://github.com/itkadr-git/myrmidon/blob/main/docs/myrmidon/deploy.md) · [RU](https://github.com/itkadr-git/myrmidon/blob/main/docs/myrmidon/deploy.ru.md)
 - **Guides / Руководства:** [docs/myrmidon/guides](https://github.com/itkadr-git/myrmidon/tree/main/docs/myrmidon/guides)
