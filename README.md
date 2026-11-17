@@ -53,7 +53,8 @@ Myrmidon ведёт команду ИИ-агентов на вашем серв�
 ## Myrmidon
 
 - **Repository / Репозиторий:** [itkadr-git/myrmidon](https://github.com/itkadr-git/myrmidon)
-- **Latest release / Последний выпуск:** [myr-v1.6.5](https://github.com/itkadr-git/myrmidon/releases/tag/myr-v1.6.5) · [all releases / все выпуски](https://github.com/itkadr-git/myrmidon/releases)
+- **Latest release / Последний выпуск:** [myr-v1.6.5](https://github.com/itkadr-git/myrmidon/releases/tag/myr-v1.6.5) (stable / стабильный) · [all releases / все выпуски](https://github.com/itkadr-git/myrmidon/releases)
+- **Upcoming / Готовится:** 1.6.9 — candidate [myr-v1.6.9-rc.13](https://github.com/itkadr-git/myrmidon/releases/tag/myr-v1.6.9-rc.13) is the current verified candidate; the stable `myr-v1.6.9` tag follows the owner decision / текущий проверенный кандидат; стабильный тег `myr-v1.6.9` — после решения владельца
 - **Quick start / Быстрый старт:** [EN](https://github.com/itkadr-git/myrmidon/wiki/Quick-start) · [RU](https://github.com/itkadr-git/myrmidon/wiki/Quick-start.ru)
 - **Deploy / Выкат:** [EN](https://github.com/itkadr-git/myrmidon/blob/main/docs/myrmidon/deploy.md) · [RU](https://github.com/itkadr-git/myrmidon/blob/main/docs/myrmidon/deploy.ru.md)
 - **Guides / Руководства:** [docs/myrmidon/guides](https://github.com/itkadr-git/myrmidon/tree/main/docs/myrmidon/guides)
